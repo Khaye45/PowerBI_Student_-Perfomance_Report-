@@ -70,16 +70,60 @@ RETURN
 
   ```
   Min Score = MIN(StudentsPerformance[Score])
-  Max Score = MAX(StudentsPerformance[Score])  
+  
+  Max Score = MAX(StudentsPerformance[Score])
+  
   Median Score = MEDIAN(StudentsPerformance[Score])
+  
   Score IQR = [Score Pctile 75] -[Score Pctile 25]
+  
   Score IQR 25-50 = [Median Score] - [Score Pctile 25]
+  
   Score IQR 50-75 = [Score Pctile 75] - [Median Score]
+  
   Score Pctile 25 = PERCENTILE.INC(StudentsPerformance[Score],0.25)
+  
   Score Pctile 75 = PERCENTILE.INC(StudentsPerformance[Score], 0.75)
+  
   Y axis max = [Max Score] * 1.1
 
   ```
+#### 💼 Custom SVG Measures For  
+
++ 🧮 Math Donut Chart
+  
++ 📚 Reading Donut Chart  
+  
++ ✍️ Writing Donut Chart using DAX
+
++ 🧑‍🎓 Student Score Bar Chart
+
+### Visualization Creation  
+1. 📇 Cards : To visualize the important metrics:( Total Number Of Students, Percentage number Of Male Vs Female Students and the average score ).
+
+2. 📊 Clustered Column Chart : To visualize Grade Distribution by Gender.  
+
+3. 📑 Table Visualization :  To visualize the top 5 students based on the average score value.
+   
+4. 💹 100% Stacked Bar Chart : To visualize the perfomance (Reading , Writing and Maths)  of students of different race and ethnicity.
+   
+5. 📊 Box Plot Chart  for our statistical overview 
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+
+
  
 
   
