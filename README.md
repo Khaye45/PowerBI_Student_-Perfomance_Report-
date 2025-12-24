@@ -11,8 +11,18 @@ I imported the [Excel file](https://github.com/Khaye45/PowerBI_Student_-Perfoman
 ⚙️Renamed columns to proper case.  
 ➗Added a calculated column for the student Score   
 🧮 Created a conditional column to assign grades based on their scores  
- ![Formulae  for Grades column](<img width="992" height="199" alt="Screenshot 2025-12-21 163452" src="https://github.com/user-attachments/assets/49880d49-ec3f-44e5-b988-419547646dea" />
-)
+
+` Grade =    
+SWITCH (   
+TRUE (),    
+[Score] >= 95, "O",    
+[Score] >= 81, "A",    
+[Score] >= 71, "B",    
+[Score] >= 61, "C",    
+[Score] >= 51, "D",    
+[Score] >= 41, "E",    
+"F"      
+) `
 
 
 ### 🧬Data Modelling  
