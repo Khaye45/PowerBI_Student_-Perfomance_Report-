@@ -107,7 +107,7 @@ RETURN
    
 4. 💹 100% Stacked Bar Chart : To visualize the perfomance (Reading , Writing and Maths)  of students of different race and ethnicity.
    
-5. 📊 Box Plot Chart  for our statistical overview 
+5. 📊 Box Plot Chart  for a statistical overview 
 
 
 
