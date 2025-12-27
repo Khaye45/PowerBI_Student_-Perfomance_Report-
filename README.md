@@ -1,7 +1,13 @@
 # PowerBI_Student_ Perfomance_Report   
-A comprehensive PowerBI dashboard to help analyze student perfomance  in an academic year.  
+A comprehensive PowerBI dashboard to help analyze student perfomance  for academic year 2023-2024    
+
+![Dashboard Gif](https://github.com/user-attachments/assets/14ca1926-fb62-4cd8-ba1f-441b28a13511)
+
+
 ## OVERVIEW  
-This 2 -paged Students' Performance Power BI PBIX File is an essential tool for educators, school administrators, and data analysts aiming to monitor and improve academic outcomes. Perfect for schools, education departments, and learning institutions, this interactive dashboard offers a scalable, visually engaging solution to uncover trends, analyze performance by demographics, and identify areas needing support.  
+This 2 -paged Students' Performance Power BI PBIX File is an essential tool for educators, school administrators, and data analysts aiming to monitor and improve academic outcomes. Perfect for schools, education departments, and learning institutions, this interactive dashboard offers a scalable, visually engaging solution to uncover trends, analyze performance by demographics, and identify areas needing support.    
+
+
 ### ☑️ Data Cleaning and Preparation   
 
 I imported the [Excel file](https://github.com/Khaye45/PowerBI_Student_-Perfomance_Report-/blob/main/StudentsPerformance.xlsx)  into Power BI and launched the dataset in Power Query Editor. My data cleaning process involved checking out for:      
@@ -107,7 +113,29 @@ RETURN
    
 4. 💹 100% Stacked Bar Chart : To visualize the perfomance (Reading , Writing and Maths)  of students of different race and ethnicity.
    
-5. 📊 Box Plot Chart  for a statistical overview 
+5. 📊 Box Plot Chart  for a statistical overview of the students' perfomance segmented by demographic factors (gender, race/ethnicity) and socioeconomic indicators (parental education, lunch program status, and test preparation).
+
+6. 📊 Scatter Plot to evaluate the correlation between  math and  reading skills while identifying the extent of which socioeconomic factor (lunch) varies with overall student perfomance.
+
+### Insights   
+
+In the academic year 2023 - 2024 , there's a total of 1, 009 students (48.3% Male, 51.7% Female) with an avereage score of 67.8.  The average score for the male gender is 65.9 while that of female gender is 69.6. 
+
+The top performing subject overall  is Reading with a mean of 69. 1%  followed by Writing at 68.1% while Math had a mean of 66. 1% which shows small variance between the mean scores.
+Reading and Writing are the top perfoming subjects for the female gender while the male gender perform highly in Maths compared to Reading and Writing. 
+
+
+Parents education  is not  a determining factor in student's perfomance. There a median perfomance level across all levels of parent's education level is slightly closer to each other. 
+
+
+
+
+
+
+
+
+
+
 
 
 
