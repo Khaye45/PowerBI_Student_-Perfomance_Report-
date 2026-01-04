@@ -125,7 +125,7 @@ The top performing subject overall  is Reading with a mean of 69. 1%  followed b
 Reading and Writing are the top perfoming subjects for the female gender while the male gender perform highly in Maths compared to Reading and Writing. 
 
 
-Parents education  is not  a determining factor in student's perfomance. There a median perfomance level across all levels of parent's education level is slightly closer to each other. 
+ 
 
 
 
